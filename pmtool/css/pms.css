@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+body{
+    background: #f9f9f9;
+    font: 13px/1.5 'Open Sans', Helvetica, Arial, sans-serif;
+}
+/* Global
+--------------------------*/
+a{
+
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+}
+.left, 
+#header ul li, 
+#menu ul li, 
+.block,
+#addProject .block div label,
+#addProject .block div input{
+    float: left;
+}
+.right, #menu{
+    float: right;
+}
+.clearfix{
+    clear: both;
+}
+#content{
+    margin: 30px 0 0 0;
+    padding: 10px 20px;
+    background: #fff;
+}
+#content h2{
+    color: #46b8da;
+    font-size: 22px;
+    margin: 0;
+    padding: 10px 10px;
+    border-bottom: 1px solid #f2f2f2;
+}
+/* Header
+--------------------------*/
+#header{
+    background: #656565;
+    overflow: hidden;
+}
+#header ul, #menu ul, #count ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+#header ul li, 
+#header ul li a{
+    color: #fff;
+    font-size: 16px;
+    padding: 10px 10px;
+}
+#header ul li i{
+    color: #fff;
+    font-size: 25px;
+}
+/* Form
+--------------------------*/
+.form-signin {
+  max-width: 330px;
+  padding: 15px;
+  margin: 0 auto;
+}
+.form-signin .form-signin-heading,
+.form-signin .checkbox {
+  margin-bottom: 10px;
+}
+.form-signin .checkbox {
+  font-weight: normal;
+}
+.form-signin .form-control {
+  position: relative;
+  height: auto;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 10px;
+  font-size: 16px;
+}
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+.form-signin input[type="text"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+.form-signin input[type="submit"] {
+  background: #46b8da !important;
+  border: 0;
+}
+/* Grid
+--------------------------*/
+#grid table tr th{
+    background: #46b8da;
+    color: #fff;
+    font-weight: normal;
+    text-align: left;
+}
+#grid table tr td{
+    vertical-align: middle;
+}
+#addForm{
+    padding: 20px 0 0 0;
+}
+#count{
+    padding: 10px 10px;
+    background: #fff;
+    overflow: hidden;
+}
+#count ul li{
+    text-align: center;
+    margin-right: 20px;
+    float: left;
+    width: 150px;
+    height: 150px;
+    -webkit-border-radius: 150px;
+    border-radius: 150px;
+    -moz-border-radius: 150px;
+    border: 2px solid #46b8da;
+}
+#count ul li b{
+    padding-top: 50px;
+    font-size: 25px;
+    display: block;
+}
+#viewProject {
+    padding: 20px 20px;
+    background: #f2f2f2;
+}
