@@ -7,8 +7,7 @@ PHP CSV FILE EDIT OFFILINE PMS TOOL, USER CAN ADD, EDIT, DELETE, UPDATE PROJECT
   <li>JQUEYR UI (DATE PICKER)</li>
   <li>HTML5</li>
 </ul>
-<b>Demo</b>
-<a href="http://www.subrahmanyampoluru.com/pmtool" target="_blank">Demo</a>
+<a href="http://subrahmanyampoluru.com/dev/pmtool/" target="_blank">Working Demo</a>
 
 <b>Usernames / Password </b>
 <ul>
